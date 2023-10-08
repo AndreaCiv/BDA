@@ -82,6 +82,8 @@ def print_graphics(mse_train, mse_test, accuracy_train, accuracy_test):
     plt.legend()
     plt.axvline(x="40k")
 
+    plt.show()
+
 
 if __name__ == "__main__":
 
