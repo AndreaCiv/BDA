@@ -8,7 +8,7 @@ from matplotlib import pyplot as plt
 
 def train_and_test():
     initializer = tf.keras.initializers.GlorotUniform(seed=5)
-    epochs = 5000
+    epochs = 6000
 
     n_unit_to_check = [10, 100, 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 13000, 15000, 20000, 40000, 60000]
 

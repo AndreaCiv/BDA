@@ -18,7 +18,7 @@ def train_and_test(with_weights_reuse):
     accuracy_test = []
 
     # Numero di epoche di addestramento
-    epochs = 5000
+    epochs = 6000
 
     # Ciclo for di addestramento e test per le varie reti
     for neurons in n_unit_to_check:
