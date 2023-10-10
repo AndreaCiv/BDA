@@ -62,7 +62,6 @@ def print_graphics(mse_train, mse_test, accuracy_train, accuracy_test):
     plt.title("Zero-one Loss (%)")
     plt.plot(n_of_params, (1 - np.array(accuracy_train)) * 100, linewidth=2.0, color='orange', label="Train")
     plt.plot(n_of_params, (1 - np.array(accuracy_test)) * 100, linewidth=2.0, color='blue', label="Test")
-    plt.xscale('log')
     plt.legend()
 
     plt.show()
@@ -74,7 +73,6 @@ def print_graphics(mse_train, mse_test, accuracy_train, accuracy_test):
     plt.plot(n_of_params, mse_train, linewidth=2.0, color='orange', label="Train")
     plt.plot(n_of_params, mse_test, linewidth=2.0, color='blue', label="Test")
     plt.legend()
-    plt.xscale('log')
 
     plt.show()
 
