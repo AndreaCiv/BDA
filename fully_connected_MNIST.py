@@ -117,3 +117,4 @@ if __name__ == "__main__":
     mse_train, mse_test, accuracy_train, accuracy_test = train_and_test(with_weights_reuse=True)
     print_graphics(mse_train, mse_test, accuracy_train, accuracy_test)
 
+

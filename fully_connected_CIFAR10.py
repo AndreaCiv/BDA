@@ -158,3 +158,4 @@ if __name__ == "__main__":
     # Stampa dei grafici
     print_graphics(mse_train, mse_test, accuracy_train, accuracy_test)
 
+
