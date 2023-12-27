@@ -33,6 +33,7 @@ def train_and_test(with_weights_reuse):
             learning_rate=0.001,
             momentum=0.95
         )
+        model.summary()
         # Compilazione del modello
         model.compile(
             optimizer=optimizer,
